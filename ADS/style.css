@@ -1,37 +1,63 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+	background-color: #262626;
+}
+.Top{
+  background-color: #259098;
+  padding-left: 15px;
+  height: 100px;
+  weight:100px;
+}
+.Logo{
+
+}
+.Content{
+
+}
 .Ads__header{
-    padding: 24px;
-    background-color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  margin-left: 200px;
+  display: block;
+  width: 1400px;
+  height: 800px;
 }
-
-
-.Header__title{
-    display: inline-block;
-    font-size: 32px;
-    font-weight: 700;
-
+.Background{
+  width: 1400px;
+  height: 800px;
+  background-image: url('./pub/images/gifcrop.gif');
 }
-
 
 .Header__button{
-    display: inline-block;
-    float: right;
-    background-color: black;
-    color: cornsilk;
-    padding: 8px 12px;
-    border-radius: 7px;
-
+  color: white;
+  margin-top: 70px;
+  margin-left: 600px;
+  width: 150px;
+  height: 60px;
+  background-color: #D33938;
+  transition: .s;
+}
+.Button__text{
+  padding-top: 20px;
+  margin-left: 40px;
 }
 .Header__button:hover{
-    height: 20px;
-    background-color: red;
-    transition: 2s;
-    border-radius: 10px;
-    border-collapse: collapse;
+  background: linear-gradient(to right, #D33938, #259098);
+  transition: 2s;
 }
 
+.Header__title{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  margin-left: 40%;
+  margin-top: 20%;
+  color: white;
+  display: inline-block;
+
+}
 
 .Ads__content{
     padding: 24px;
@@ -41,14 +67,25 @@
 
 
 .Content__box{
-    margin-left: 50px;
+    margin-left: 300px;
     padding-right: 40px;;
-    width: 80px;
-    height: 140px;
-    background-color:blueviolet ;
-    display: inline-block;
+    width: 300px;
+    height: 250px;
+    background-color:#E59C2A ;
     padding-left: 40px;
-
+    display: inline-block;
+     box-shadow: 0 0 40px rgba(0,0,10,.5);
+}
+.Content__box2{
+  margin-top: 70px;
+    margin-left: 300px;
+    padding-right: 40px;;
+    width: 300px;
+    height: 250px;
+    background-color:#E59C2A ;
+    padding-left: 40px;
+    display: inline-block;
+     box-shadow: 0 0 40px rgba(0,0,10,.5);
 }
 
 
