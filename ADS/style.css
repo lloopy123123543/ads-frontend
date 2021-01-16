@@ -1,0 +1,68 @@
+
+.Ads__header{
+    padding: 24px;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.Header__title{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+
+.Header__button{
+    display: inline-block;
+    float: right;
+    background-color: black;
+    color: cornsilk;
+    padding: 8px 12px;
+    border-radius: 7px;
+
+}
+.Header__button:hover{
+    height: 20px;
+    background-color: red;
+    transition: 2s;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+
+.Ads__content{
+    padding: 24px;
+    padding-left: 40px;
+
+}
+
+
+.Content__box{
+    margin-left: 50px;
+    padding-right: 40px;;
+    width: 80px;
+    height: 140px;
+    background-color:blueviolet ;
+    display: inline-block;
+    padding-left: 40px;
+
+}
+
+
+.Box__info{
+    margin-top: 5px;
+
+}
+
+
+.Box__name{
+margin-top: 8px;
+}
+
+
+.Box__phone{
+
+}
