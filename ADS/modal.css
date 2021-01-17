@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+.Vmodal{
+
+}
+.Overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  background: rgba(0, 0, 0, .5);
+
+}
+.Window{
+  width: 900px;
+  height: 400px;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+  margin: 150px auto;
+
+}
+.Model__header{
+  height: 15%;
+  background-color: #E59C2A;
+  border-radius: 5px;
+
+}
+.Model__header__title{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 35px;
+  color: white;
+  margin-left: 45%;
+}
+.Modal__close{
+  margin-left: 70%;
+  cursor: pointer;
+}
+.Modal__close:hover{
+  color: black;
+}
+.Model__body{
+
+}
+.Model__bot{
+  margin-top: 300px;
+  height: 60px;
+  weight:30px;
+  background-color: #E59C2A;
+}
+.Model__bot__button{
+  padding-top: 5px;
+  font-size: 30px;
+  color: white;
+  padding-left: 390px;
+  font-family: 'Raleway', sans-serif;
+
+
+}
