@@ -17,7 +17,19 @@ html, body {
 
 }
 .Content{
+  margin-top: 15px;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 35px;
+  color: white;
+  margin-left: 45%;
 
+}
+.Line{
+  margin-left: auto;
+  width: 1830px;;
+  height: 10px;
+  background-color: white;
+  display: inline-block;
 }
 .Ads__header{
   margin-left: 200px;
