@@ -41,5 +41,10 @@ $(window).on('load', function () {
 			$(".Alert").fadeOut();
 		}
 	}, );
+
 });
+$('.Modal__close1').click(function() { 
+	$('.Alert').fadeOut();
+		
+	});
 

@@ -75,8 +75,17 @@
   border-radius: 5px;
 }
 .Alert__text{
-  padding-top: 13px;;
+  display: inline-block;
+  padding-top: 13px;
   padding-left: 150px;
   color: white;
   font-family: 'Raleway', sans-serif;
+}
+.Modal__close1{
+  margin-top: -60px;
+  padding-left: 100px;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 70%;
+  cursor: pointer;
 }
