@@ -19,6 +19,7 @@ $('.Model__bot__button').click(function(){
 	$('.Alert').fadeIn();
 	$('.Alert').addClass('anabled')
 	$('.Vmodel').addClass('disabled');
+	console.log(1);
 }) 
 
 $(window).on('load', function () { 
@@ -27,7 +28,7 @@ $(window).on('load', function () {
 			return false;
 		} else {
 			
-			$(".Vmodel").fadeOut();
+			$(".Vmodel").fadeOut(1);
 		}
 	}, );
 });
@@ -38,7 +39,7 @@ $(window).on('load', function () {
 			return false;
 		} else {
 			
-			$(".Alert").fadeOut();
+			$(".Alert").fadeOut(1);
 		}
 	}, );
 
@@ -47,4 +48,6 @@ $('.Modal__close1').click(function() {
 	$('.Alert').fadeOut();
 		
 	});
-
+$(window).on('load', function() {
+	$('.preloader').fadeOut(1500);
+	});

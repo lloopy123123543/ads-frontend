@@ -1,0 +1,33 @@
+.preloader {
+    background-color: #262626;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1001;
+  }
+  
+  .preloader__image {
+    background-color: #262626;
+    position: relative;
+    top: 30%;
+    left: 32%;
+    width: 1200px;
+    height: 900px;
+    margin-top: -32px;
+    margin-left: -32px;
+    background: url('./pub/images/gifcrop.gif') no-repeat ;
+
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
