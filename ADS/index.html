@@ -48,9 +48,13 @@
     <div class="Ads__content">
         <div class="Content__box">
 
-            <div class="Box__info">Текст обьявления1 </div>
+
+            <div class="Box__info">Текст обьявления </div>
+            <div id="divResultText"></div>
             <div class="Box__name">Имя</div>
-            <div class="Box__phone">89323358553</div>
+            <div id="divResultName"></div>
+            <div class="Box__phone">Номер телефона</div>
+            <div id="divResultNumber"></div>
         </div>
 
         <div class="Content__box">
@@ -84,24 +88,24 @@
           <div class="Model__body">
             <div class="Model__body__Name">
               Введите ваше имя
-              <textarea name="TA" rows="1" cols="20"></textarea>
+              <textarea id="txtFirstName" class="inputRequiredName" name="TA" rows="1" cols="20"></textarea>
             </div>
             <div class="Model__body__Surname">
               Введите вашу фамилию
-              <textarea name="TA" rows="1" cols="20"></textarea>
+              <textarea id="txtLastName" class="inputRequiredSurname" name="TA" rows="1" cols="20"></textarea>
             </div>
             <div class="Model__body__number">
               Введите ваш номер телефона
-              <textarea name="TA" rows="1" cols="12" ></textarea>
+              <textarea name="TA" class="inputRequiredNumber" rows="1" cols="12" ></textarea>
 
             </div>
             <div class="Model__body__text">Введите текст
-              <textarea name="TA" rows="8" cols="116"></textarea>
+              <textarea class="inputRequiredText" name="TA" rows="8" cols="116"></textarea>
 
             </div>
           </div>
           <div class="Model__bot">
-            <div class="Model__bot__button">Готово
+            <div id="btnSubmit" class="Model__bot__button">Готово
 
             </div>
           </div>
