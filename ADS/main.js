@@ -1,4 +1,8 @@
 
+$('.Content__box').ready(function(){
+	$('.Content__box').fadeOut();
+})
+
 
 $('.Header__button').click(function() {
 
@@ -16,10 +20,12 @@ $('.Model__bot__button').click(function(){
 })
 
 $('.Model__bot__button').click(function(){
+	$('.Content__box').fadeIn();
 	$('.Alert').fadeIn();
 	$('.Alert').addClass('anabled')
 	$('.Vmodel').addClass('disabled');
-	console.log(1);
+	var chack = 1+1;
+console.log(++chack);
 })
 
 $(window).on('load', function () {
