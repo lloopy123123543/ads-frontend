@@ -46,7 +46,14 @@
         </div>
     </div>
     <div class="Ads__content">
-        <div class="Content__box">
+      <div id='content' class='Ads__content'>
+          <!-- <div class='Content__box'>
+              <div class='Box__info'>Текст объявления 1</div>
+              <div class='Box__name'>Имя</div>
+              <div class='Box__phone'>+7 (999) 123-45-67</div>
+          </div>        -->
+      </div>
+        <!-- <div class="Content__box">
 
 
             <div class="Box__info">Текст обьявления </div>
@@ -55,7 +62,7 @@
             <div id="divResultName"></div>
             <div class="Box__phone">Номер телефона</div>
             <div id="divResultNumber"></div>
-        </div>
+        </div> -->
 
 
     </div>
@@ -69,24 +76,22 @@
             </div>
           </div>
           <div class="Model__body">
-            <div class="Model__body__Name">
-              Введите ваше имя
-              <textarea id="txtFirstName" class="inputRequiredName" name="TA" rows="1" cols="20"></textarea>
-            </div>
-            <div class="Model__body__Surname">
-              Введите вашу фамилию
-              <textarea id="txtLastName" class="inputRequiredSurname" name="TA" rows="1" cols="20"></textarea>
-            </div>
-            <div class="Model__body__number">
-              Введите ваш номер телефона
-              <textarea name="TA" class="inputRequiredNumber" rows="1" cols="12" ></textarea>
-
-            </div>
-            <div class="Model__body__text">Введите текст
-              <textarea class="inputRequiredText" name="TA" rows="8" cols="116"></textarea>
-
-            </div>
-          </div>
+            <div class='Modal__form'>
+                <div class='Form__title'>Новое объявление</div>
+                <div class='Form__content'>
+                    <div class='Content__field'>
+                        <label>Текст объявления</label>
+                        <textarea name='text' cols='30' rows='10'></textarea>
+                    </div>
+                    <div class='Content__field'>
+                        <label>Имя</label>
+                        <input name='name' type='text'>
+                    </div>
+                    <div class='Content__field'>
+                        <label>Телефон</label>
+                        <input name='phone' type='text'>
+                    </div>
+                    <div class='Content__field'>
           <div class="Model__bot">
             <div id="btnSubmit" class="Model__bot__button">Готово
 
@@ -98,9 +103,7 @@
 
 
     </div>
-    <div class="preloader">
-      <div class="preloader__image"></div>
-    </div>
+
 
     </div>
 
