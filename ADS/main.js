@@ -1,11 +1,14 @@
+ $('.Header__button').click(function() {
+
+ 	$('.Vmodel').fadeIn();
+	$('.Vmodel').addClass('disabled');
+});
 $(document).ready(function() {
 
     // Основные переменные приложения.
     var arrayAds = Array(); // Массив объявлений.
 
-    $('.Header__button').click(function() {
-        $('.Vmodal').show();
-    });
+
 
     $('#close').click(function() {
         $('#modal').hide();
@@ -57,6 +60,8 @@ $(document).ready(function() {
     }
 
 });
+
+
 
 
 // $('.Content__box').ready(function(){
