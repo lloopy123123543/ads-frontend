@@ -1,3 +1,7 @@
+
+$('.Vmodel').ready(function(){
+  $('.Vmodel').hide();
+})
  $('.Header__button').click(function() {
 
  	$('.Vmodel').fadeIn();
@@ -10,8 +14,8 @@ $(document).ready(function() {
 
 
 
-    $('#close').click(function() {
-        $('#modal').hide();
+    $('.Modal__close').click(function() {
+        $('.Vmodel').fadeOut();
     });
 
 

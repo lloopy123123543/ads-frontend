@@ -46,13 +46,14 @@
 
 }
 .Model__bot{
-  margin-top: 100px;
+  margin-top: 180px;
   height: 60px;
   weight:30px;
   background-color: #D33938;
 }
 .Model__bot__button{
-  padding-top: 5px;
+  margin-top: 100px;
+  padding-top: 10px;
   font-size: 30px;
   color: white;
   padding-left: 390px;
@@ -98,7 +99,6 @@
 .Model__body__Name{
   padding-left: 10px;
   font-family: 'Raleway', sans-serif;
-  padding-top: 20px;
 }
 .Model__body__text{
   padding-left: 10px;
@@ -108,10 +108,23 @@
 .Model__body__Surname{
   padding-left: 10px;
   font-family: 'Raleway', sans-serif;
-  padding-top: 20px;
 }
 .Model__body__number{
   padding-left: 10px;
   font-family: 'Raleway', sans-serif;
+}
+.Content__field{
+  font-family: 'Raleway', sans-serif;
   padding-top: 20px;
+}
+.Form__title{
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5px;
+  padding-left: 40%;
+  font-weight: 300;
+  height: 40px;
+  weight:100%;
+  background-color: #259098;
+  color: white;
+
 }
